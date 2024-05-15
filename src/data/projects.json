@@ -1,0 +1,19 @@
+[
+    {
+      "title": "House Designs KE",
+      "imageSrc": "projects/project1.png",
+      "description": "This is a project made to help people who are seeking to build their homes find nice designs which they can incorporate.",
+      "skills": ["Javascript", "Tailwind CSS", "CSS", "HTML"],
+      "demo": "https://emmanuelokinyi.github.io/House-designs-KE",
+      "source": "https://github.com/emmanuelokinyi/House-designs-KE"
+    },
+    {
+      "title": "Pata-Kazi",
+      "imageSrc": "projects/project2.png",
+      "description": "This is a project I collaborated with some of my programming peers to adress the alarming issue of unemployment in Kenya.",
+      "skills": ["React", "Javascript", "HTML", "CSS"],
+      "demo": "https://pata-kazi.netlify.app",
+      "source": "https://github.com/okumbamiruka/Pata-Kazi"
+    }
+    
+  ]

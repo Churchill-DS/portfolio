@@ -1,0 +1,119 @@
+@import "../../vars.css";
+
+.container{
+    color: var(--color-text);
+    margin-top: 120px;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding: 58px 10%;
+    gap: 10px;
+}
+
+.text h2{
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.text p{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    gap: 26px;
+
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.link a{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 830px){
+    .container{
+        flex-direction: column;
+        gap: 23px;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .links{
+        align-items: center;
+    }
+}
+
+.back {
+    display: inline-block;
+    border-radius: 7px;
+    border: none;
+    background: #1875FF;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0px 14px 56px -11px #1875FF;
+    width: 10em;
+    padding: 1em;
+    transition: all 0.4s;
+    cursor: pointer;
+   
+   }
+   
+   .back span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+   }
+   
+   .back span:after {
+    content: 'to top';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+   }
+   
+   .back:hover span {
+    padding-right: 3.55em;
+   }
+   
+   .back:hover span:after {
+    opacity: 4;
+    right: 0;
+   }
+
+   .backcontainer{
+    color: var(--color-text);
+    margin-top: 0px;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding: 58px 10%;
+    gap: px;
+}

@@ -1,4 +1,5 @@
-[
+{
+  "languages": [
     {
       "title": "HTML",
       "imageSrc": "skills/html.png"
@@ -12,6 +13,13 @@
       "imageSrc": "skills/javascript.png"
     },
     {
+      "title": "Python",
+      "imageSrc": "skills/python.png"
+    }
+    
+  ],
+  "frameworks": [
+    {
       "title": "React",
       "imageSrc": "skills/react.png"
     },
@@ -20,21 +28,11 @@
       "imageSrc": "skills/node.png"
     },
     {
-      "title":"Python",
-      "imageSrc":"skills/python.png"
-    },
-    {
       "title": "Flask",
-      "imageSrc":"skills/flask.png"
-    },
-    {
-      "title": "SQL",
-      "imageSrc":"skills/sql.png"
-    },
-    {
-      "title": "Figma",
-      "imageSrc": "skills/figma.png"
-    },
+      "imageSrc": "skills/flask.png"
+    }
+  ],
+  "versionControl": [
     {
       "title": "Git",
       "imageSrc": "skills/git.png"
@@ -43,4 +41,17 @@
       "title": "GitHub",
       "imageSrc": "skills/github.png"
     }
-]
+  ],
+  "databaseManagement": [
+    {
+      "title": "SQL",
+      "imageSrc": "skills/sql.png"
+    }
+  ],
+  "designTools": [
+    {
+      "title": "Figma",
+      "imageSrc": "skills/figma.png"
+    }
+  ]
+}

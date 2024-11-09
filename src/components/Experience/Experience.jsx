@@ -10,15 +10,12 @@ export const Experience = () => {
   
   return (
     <section className={styles.container}id='experience'>
-       <h2 className={styles.title}>Skills and  Experience</h2>
+       <h2 className={styles.title}>Skills</h2>
       <div className={styles.content}>
-        
         <div className={styles.skills}>{
           skills.map((skill,id) =>{
-
             const duration = Math.random() * (5 - 2) + 2; 
-                const delay = Math.random() * 3; 
-            
+            const delay = Math.random() * 3; 
             return <div key={id} className={styles.skill}>
               <div className={styles.skillImageContainer}><img className={styles.experienceImage} src={getImageUrl(skill.imageSrc)} alt={skill.title}
                style={{
@@ -29,8 +26,14 @@ export const Experience = () => {
               <p>{skill.title}</p>
             </div>
           })
-          }</div>
-        <ul className={styles.history}>
+          }
+          </div>
+        
+      </div>
+
+      <div className={styles.container}id='experience'>
+      <h2 className={styles.title}>Experience</h2>
+       <ul className={styles.history}>
           {history.map((historyItem, id) => {
             return <li key={id} className={styles.historyItem}>
               <img  src={getImageUrl(historyItem.imageSrc)} alt={`${historyItem.organisation}`}/>
@@ -45,7 +48,7 @@ export const Experience = () => {
             </li>
           })}
         </ul>
-      </div>
+        </div>
 
     </section>
   )

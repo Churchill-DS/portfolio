@@ -18,7 +18,7 @@ export const Hero = () => {
       { opacity: 1, x: 0, duration: 1.5, ease: "power2.out" }
     );
 
-    const titleText = "Hi there, I'm Emmanuel";
+    const titleText = "Hi there, I'm Emmanuel"; 
     const titleSpan = titleRef.current;
     titleSpan.innerHTML = ''; 
 
@@ -31,14 +31,14 @@ export const Hero = () => {
 
     gsap.fromTo(
       letters,
-      { opacity: 0, x: 10 },
+      { opacity: 0, x: 10 }, 
       {
         opacity: 1,
         x: 0,
         stagger: 0.1, 
         duration: 0.3, 
         ease: "power1.out",
-        delay: 0.5 
+        delay: 0.5,
       }
     );
 

@@ -40,14 +40,23 @@
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-roboto);
-    background: linear-gradient(90deg, rgb(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 120%);
+    background:#84eed7;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     padding-bottom: 10px; 
     border-bottom: 4px solid lightblue; 
-    display: inline-block; 
+    display: inline-block;
+    animation: glow 2s infinite alternate; 
 }
 
+@keyframes glow {
+    0% {
+      filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.5));
+    }
+    100% {
+      filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+    }
+  }
 .description {
     font-size: 30px;
     font-family: var(--font-roboto);
@@ -109,8 +118,6 @@
     z-index: 0;
 }
 
-
-  
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column; 

@@ -11,7 +11,6 @@ export const About = () => {
     const aboutImage = `.${styles.aboutImage}`;
     const aboutItems = `.${styles.aboutItem}`;
 
-    // Animation for the main image to fade in from the left
     gsap.fromTo(
       aboutImage,
       { x: -100, opacity: 0 },

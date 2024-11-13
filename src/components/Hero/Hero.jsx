@@ -12,17 +12,15 @@ export const Hero = () => {
   const bottomBlurRef = useRef(null);
 
   useEffect(() => {
-    // Animate headshot image
     gsap.fromTo(
       headshotRef.current,
       { opacity: 0, x: -100 },
       { opacity: 1, x: 0, duration: 1.5, ease: "power2.out" }
     );
 
-    // Typing animation for title text
-    const titleText = "Hi there, I'm Emmanuel"; // Static text for the title
+    const titleText = "Hi there, I'm Emmanuel";
     const titleSpan = titleRef.current;
-    titleSpan.innerHTML = ''; // Clear existing content
+    titleSpan.innerHTML = ''; 
 
     const letters = titleText.split('').map((char, index) => {
       const span = document.createElement('span');
@@ -33,25 +31,23 @@ export const Hero = () => {
 
     gsap.fromTo(
       letters,
-      { opacity: 0, x: 10 }, // Letters start invisible and slightly offset
+      { opacity: 0, x: 10 },
       {
         opacity: 1,
         x: 0,
-        stagger: 0.1, // Delay between each letter's animation
-        duration: 0.3, // Speed of each letter appearing
+        stagger: 0.1, 
+        duration: 0.3, 
         ease: "power1.out",
-        delay: 0.5 // Delay before typing starts
+        delay: 0.5 
       }
     );
 
-    // Animate description text
     gsap.fromTo(
       descriptionRef.current,
       { opacity: 0, y: 50 },
       { opacity: 1, y: 0, duration: 1.2, delay: 2, ease: "power2.out" }
     );
 
-    // Animate blur effects
     gsap.fromTo(
       topBlurRef.current,
       { opacity: 0 },

@@ -1,66 +1,107 @@
 @import "../../vars.css";
 
-.container{
+.container {
     color: var(--color-text);
     margin-top: 120px;
     background-color: var(--color-secondary);
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 100vw;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
     padding: 58px 10%;
-    gap: 10px;
+    gap: 40px;
 }
 
-.text h2{
-    font-size: 80px;
+.text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text h2 {
+    font-size: 2.5rem;
     font-weight: 800;
-    letter-spacing: 4px;
-}
-
-.text p{
-    font-size: 40px;
-    font-weight: 400;
     letter-spacing: 2px;
+    color: var(--color-primary);
 }
 
-.links{
+.text p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.links {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     list-style: none;
-    gap: 26px;
-
+    gap: 20px;
 }
 
-.link{
+.link {
     display: flex;
     align-items: center;
-    gap: 25px;
-
-}
-
-.link a{
-    color: white;
-    font-size: 25px;
+    gap: 15px;
+    font-size: 1.1rem;
     font-weight: 400;
-    letter-spacing: 1.5px;
-    text-decoration: none;
+    color: var(--color-text);
 }
 
-@media screen and (max-width: 830px){
-    .container{
-        flex-direction: column;
-        gap: 23px;
-    }
-    .text{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+.link img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
 
-    }
-    .links{
+.link a {
+    color: var(--color-text);
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link a:hover {
+    color: var(--color-primary);
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        flex-direction: column;
         align-items: center;
+        padding: 40px 5%;
+        gap: 30px;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .text h2 {
+        font-size: 2rem;
+    }
+
+    .text p {
+        font-size: 1rem;
+    }
+
+    .links {
+        align-items: left;
+        width: 100%;
+    }
+
+    .link {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .link img {
+        width: 20px;
+        height: 20px;
     }
 }
 
@@ -68,52 +109,48 @@
     display: inline-block;
     border-radius: 7px;
     border: none;
-    background: #1875FF;
+    background: var(--color-primary);
     color: white;
     font-family: inherit;
     text-align: center;
-    font-size: 13px;
-    box-shadow: 0px 14px 56px -11px #1875FF;
+    font-size: 0.9rem;
+    box-shadow: 0px 6px 18px -6px var(--color-primary);
     width: 10em;
     padding: 1em;
     transition: all 0.4s;
     cursor: pointer;
-   
-   }
-   
-   .back span {
+}
+
+.back span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.4s;
-   }
-   
-   .back span:after {
+}
+
+.back span:after {
     content: 'to top';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.7s;
-   }
-   
-   .back:hover span {
-    padding-right: 3.55em;
-   }
-   
-   .back:hover span:after {
-    opacity: 4;
-    right: 0;
-   }
+}
 
-   .backcontainer{
-    color: var(--color-text);
+.back:hover span {
+    padding-right: 3.5em;
+}
+
+.back:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.backcontainer {
     margin-top: 0px;
     background-color: var(--color-secondary);
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100vw;
-    padding: 58px 10%;
-    gap: px;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
 }

@@ -57,14 +57,19 @@
       filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
     }
   }
+  
 .description {
     font-size: 30px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
 }
 
+.buttonGroup {
+    display: flex;
+    gap: 20px; 
+}
 .contactBtn {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     padding: 1rem 2.5rem;
     border: none;
     outline: none;
@@ -117,6 +122,7 @@
     filter: blur(100px);
     z-index: 0;
 }
+
 
 @media screen and (max-width: 830px) {
     .container {

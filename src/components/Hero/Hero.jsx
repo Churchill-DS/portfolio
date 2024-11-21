@@ -4,7 +4,6 @@ import styles from "./Hero.module.css";
 import { getImageUrl } from '../../utils';
 
 export const Hero = () => {
-
   const headshotRef = useRef(null);
   const titleRef = useRef(null);
   const descriptionRef = useRef(null);
@@ -80,7 +79,15 @@ export const Hero = () => {
           I am passionate about tech, ready to dive into new projects with amazing software solutions.
           Feel free to reach out to learn more.
         </h2>
-        <a className={styles.contactBtn} href="mailto:emmanuelokinyi799@gmail.com">Contact me</a>
+        <div className={styles.buttonGroup}>
+          <a className={styles.contactBtn} href="mailto:emmanuelokinyi799@gmail.com">Contact me</a>
+          <a 
+            className={`${styles.contactBtn} ${styles.downloadBtn}`} 
+            href="../../../assets/hero/cv.pdf" 
+            download="Emmanuel_Okinyi_CV.pdf">
+            Download CV
+          </a>
+        </div>
       </div>
       <div ref={topBlurRef} className={styles.topBlur}></div>
       <div ref={bottomBlurRef} className={styles.bottomBlur}></div>

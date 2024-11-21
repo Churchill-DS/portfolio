@@ -9,6 +9,7 @@
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
+    
 
 }
 .title{
@@ -98,5 +99,6 @@ font-weight: 600;
         margin-top: 29px;
         padding-left: 0;
         padding-right: 0;
+        font-size: 20px;
     }
 }

@@ -17,6 +17,7 @@
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .menu{
@@ -64,7 +65,7 @@
     .menu{
         position: absolute;
         right: 0;
-        margin-right: 10%;
+        margin-right: 0%;
         flex-direction: column;
         align-items: flex-end;
         gap: 11px;
@@ -72,8 +73,7 @@
     }
     .menuBtn{
         display: block;
-        cursor: pointer
-        ;
+        cursor: pointer;
     }
     .menuItems{
         display: none;

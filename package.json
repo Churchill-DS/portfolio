@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://emmanuelokinyi.github.io/portfolio-okinyi/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

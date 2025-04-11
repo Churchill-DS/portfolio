@@ -1,18 +1,18 @@
 [
     {
-      "role": "Technical Lead",
-      "organisation": "Share-On.org",
-      "startDate": "Aug, 2024",
-      "endDate": "Present",
-      "experiences": ["Worked on backend of the application", "Intergrated key functionality components"],
-      "imageSrc": "history/shareon.png"
+      "role": "Data Analyst",
+      "organisation": "AMREC",
+      "startDate": "2021",
+      "endDate": "2022",
+      "experiences": ["Improved prediction accuracy by 22% by developing and tuning a machine learning model to forecast customer churn using Python and scikit-learn.", "Cleaned and preprocessed large-scale datasets (10M+ records) for model training, reducing missing data errors by 90%."],
+      "imageSrc": "history/amrec.png"
     },
     {
-      "role": "Web Developer",
-      "organisation": "Eco-Case",
-      "startDate": "Sept, 2024",
+      "role": "Data Scientist",
+      "organisation": "Ufanisi Rehab",
+      "startDate": "2023",
       "endDate": "Present",
-      "experiences": ["Worked the frontend of the research website", "Intergrated data visualization tools"],
-      "imageSrc": "history/eco-case.png"
+      "experiences": ["Designed and deployed a sales chatbot using Python and NLP libraries, automating responses for billing, shipping, and technical support—reducing customer query response time by 70% and improving user satisfaction", "Reduced data processing time by 60% by automating ETL pipelines with Pandas and SQL"],
+      "imageSrc": "history/ufanisi.jpg"
     }
   ]

@@ -1,20 +1,12 @@
 {
   "languages": [
-    {
-      "title": "HTML",
-      "imageSrc": "skills/html.png"
-    },
-    {
-      "title": "CSS",
-      "imageSrc": "skills/css.png"
-    },
-    {
-      "title": "JavaScript",
-      "imageSrc": "skills/javascript.png"
-    },
-    {
+   {
       "title": "Python",
       "imageSrc": "skills/python.png"
+    },
+    {
+      "title": "Streamlit",
+      "imageSrc": "skills/streamlit.png"
     }
     
   ],
@@ -37,21 +29,32 @@
       "title": "Git",
       "imageSrc": "skills/git.png"
     },
+   
     {
       "title": "GitHub",
       "imageSrc": "skills/github.png"
     }
   ],
+
   "databaseManagement": [
     {
       "title": "SQL",
       "imageSrc": "skills/sql.png"
+    },
+    
+    {
+      "title": "Stata",
+      "imageSrc": "skills/stata.png"
     }
   ],
   "designTools": [
     {
-      "title": "Figma",
-      "imageSrc": "skills/figma.png"
+      "title": "PowerBI",
+      "imageSrc": "skills/powerbi.png"
+    },
+    {
+      "title": "Tableau",
+      "imageSrc": "skills/tableau.png"
     }
   ]
 }

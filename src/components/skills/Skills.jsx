@@ -36,11 +36,10 @@ export const Skills = () => (
   <section className={styles.container} id='skills'>
     <h2 className={styles.title}>Skills</h2>
     <div className={styles.content}>
-      <SkillCategory title="Programming Languages" skills={skills.languages} />
-      <SkillCategory title="Frameworks" skills={skills.frameworks} />
+      <SkillCategory title="Machine Learning" skills={skills.languages} />
       <SkillCategory title="Version Control" skills={skills.versionControl} />
       <SkillCategory title="Database Management" skills={skills.databaseManagement} />
-      <SkillCategory title="Design Tools" skills={skills.designTools} />
+      <SkillCategory title="Visualization Tools" skills={skills.designTools} />
     </div>
   </section>
 );

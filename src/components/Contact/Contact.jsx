@@ -13,20 +13,20 @@ export const Contact = () => {
     
     <ul className={styles.links}>
         <li className={styles.link}>
-            <a href="mailto:emmanuelokinyi799@gmail.com"><img src={getImageUrl("contact/emailIcon.png")} alt="Email icon"/></a>
-            <a href="mailto:emmanuelokinyi799@gmail.com">emmanuelokinyi799@gmail.com</a>
+            <a href="mailto:danielotieno189@gmail.com"><img src={getImageUrl("contact/emailIcon.png")} alt="Email icon"/></a>
+            <a href="mailto:danielotieno189@gmail.com">danielotieno189@gmail.com</a>
         </li>
         <li className={styles.link}>
-            <a href="https://github.com/emmanuelokinyi"><img src={getImageUrl("contact/githubIcon.png")} alt="Github icon"/></a>
-            <a href='https://github.com/emmanuelokinyi'>github.com/emmanuelokinyi</a>
+            <a href="https://github.com/Churchill-DS"><img src={getImageUrl("contact/githubIcon.png")} alt="Github icon"/></a>
+            <a href='https://github.com/Churchill-DS'>Churchill-DS</a>
         </li>
         <li className={styles.link}>
-            <a href="https://www.instagram.com/manu.el._?igsh=MTRrdDdtdHUxeG93OA=="><img src={getImageUrl("contact/instagram.png")} alt="Instagram icon"/></a>
-            <a href='https://www.instagram.com/manu.el._?igsh=MTRrdDdtdHUxeG93OA=='>instagram.com/manu.el._</a>
+            <a href="tel:+254798813627"><img src={getImageUrl("contact/call.png")} alt="Instagram icon"/></a>
+            <a href='tel:+254798813627'>+254798813627</a>
         </li>
         <li className={styles.link}>
-            <a href="https://www.linkedin.com/in/emmanuel-okinyi-011338316?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAFAjrQ0BkdfZvObr3cCnSIm0muIj0GO8DZM&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BiI3vcLqZTvqf31r2kTaAbg%3D%3D"><img src={getImageUrl("contact/linkedin.png")} alt="LinkedIn icon"/></a>
-             <a href='https://www.linkedin.com/in/emmanuel-okinyi-011338316?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAFAjrQ0BkdfZvObr3cCnSIm0muIj0GO8DZM&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BiI3vcLqZTvqf31r2kTaAbg%3D%3D'>Emmanuel Okinyi</a>
+            <a href="https://www.linkedin.com/in/otieno-churchil-aa82b3197/"><img src={getImageUrl("contact/linkedin.png")} alt="LinkedIn icon"/></a>
+             <a href='https://www.linkedin.com/in/otieno-churchil-aa82b3197/'>Otieno Churchill</a>
         </li>
     </ul>
    </footer>

@@ -16,54 +16,54 @@ export const Education = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#123567", color: "#84eed7" }}
           contentArrowStyle={{ borderRight: "7px solid rgb(33, 150, 243)" }}
-          date="2012 - 2019"
+          date="2024"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Xaverian Primary Sch.</h3>
-          <h4 className="vertical-timeline-element-subtitle">Kisumu, Kenya</h4>
-          <p>Kenya Certificate of Primary Education</p>
+          <h3 className="vertical-timeline-element-title">Machakos University.</h3>
+          <h4 className="vertical-timeline-element-subtitle">Machakos, Kenya</h4>
+          <p>BSc Statistics & Programming</p>
         </VerticalTimelineElement>
          <VerticalTimelineElement
              className="vertical-timeline-element--work"
              contentStyle={{ background: "#062040", color: "#84eed7" }}
              contentArrowStyle={{ borderRight: "7px solid rgb(33, 150, 243)" }}
-             date="2020 - 2023"
+             date="Nov, 2024 - Apr, 2025"
              iconStyle={{ background: "#52f5e6 ", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Kapsabet High</h3>
-          <h4 className="vertical-timeline-element-subtitle">Nandi, Kenya</h4>
-          <p>Highschool Diploma</p>
+          <h3 className="vertical-timeline-element-title">GoMyCode</h3>
+          <h4 className="vertical-timeline-element-subtitle">Nairobi, Kenya</h4>
+          <p>Data Science Certification (SQL, Power BI, Python)</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "#123567", color: "#84eed7" }}
             contentArrowStyle={{ borderRight: "7px solid rgb(85, 85, 220)" }}
-            date="Feb, 2024 - Aug,2024 "
+            date="Jan, 2025 - Present "
             iconStyle={{ background: "#fe34eb ", color: "#fff" }}
             
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Moringa School
+            ALX Pathway
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Nairobi, Kenya</h4>
-          <p>Software Engineering (Javascript, ReactJS, Python & Flask)</p>
+          <p> Data Science (Excel, Professional Foundation, SQL, Python & Machine Learning)</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
              className="vertical-timeline-element--work"
              contentStyle={{ background: "#0e2a4c", color: "#84eed7" }}
              contentArrowStyle={{ borderRight: "7px solid rgb(33, 150, 243)" }}
-             date="Sept, 2024 - Present"
+             date="October, 2024 - Present"
              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Power Learn Project Africa
+            WorldQuant Ubiversity
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Online course</h4>
-          <p>Software development upskilling(Django, Dart & Flutter)</p>
+          <p>Applied Data Science(Machine Learning, Predictive Modelling)</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}

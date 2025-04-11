@@ -54,20 +54,20 @@ export const About = () => {
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}><img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon"/>
             <div className={styles.aboutItemText}>
-              <h3>Front-end developer</h3>
-              <p>I am a front-end developer with proficiency in building responsive and well-optimized websites.</p>
+              <h3>Data Analyst</h3>
+              <p>I specialize in transforming raw data into actionable insights using tools like Excel, SQL, and Power BI to support informed decision-making.</p>
             </div>
           </li>
           <li className={styles.aboutItem}><img src={getImageUrl("about/serverIcon.png")} alt="server icon"/>
             <div className={styles.aboutItemText}>
-              <h3>Back-end developer</h3>
-              <p>I have experience spanning a year and a half in developing fast and optimized back-end systems and APIs.</p>
+              <h3>Statistical & Predictive Analysis</h3>
+              <p>With a solid foundation in statistics and machine learning, I interpret trends and build models that reveal hidden patterns and forecast outcomes.</p>
             </div>
           </li>
           <li className={styles.aboutItem}><img src={getImageUrl("about/uiIcon.png")} alt="UI icon"/>
             <div className={styles.aboutItemText}>
-              <h3>UI Design</h3>
-              <p>I craft visually captivating user interfaces that seamlessly blend aesthetics with functionality.</p>
+              <h3>Data Visualization</h3>
+              <p>I design clear, compelling dashboards and visual reports that make complex data easy to understand for both technical and non-technical audiences..</p>
             </div>
           </li>
         </ul>

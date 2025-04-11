@@ -17,7 +17,7 @@ export const Hero = () => {
       { opacity: 1, x: 0, duration: 1.5, ease: "power2.out" }
     );
 
-    const titleText = "Hi there, I'm Emmanuel"; 
+    const titleText = "Hi there, I'm Churchill"; 
     const titleSpan = titleRef.current;
     titleSpan.innerHTML = ''; 
 
@@ -67,7 +67,7 @@ export const Hero = () => {
           ref={headshotRef}
           className={styles.headshot}
           src={getImageUrl("hero/me.png")}
-          alt="Emmanuel Okinyi"
+          alt="Otieno Churchill"
         />
       </div>
       <div className={styles.content}>
@@ -75,16 +75,16 @@ export const Hero = () => {
           {/* The text will be animated by GSAP */}
         </h1>
         <h2 ref={descriptionRef} className={styles.description}>
-          I'm a full-stack developer with 2 years of experience using JavaScript and Python as my primary programming languages.
-          I am passionate about tech, ready to dive into new projects with amazing software solutions.
-          Feel free to reach out to learn more.
+        I am a data scientist, passionate about transforming complex data into clear insights.
+         I blend technical skills with strategic communication to support decision-making, drive impact, and deliver meaningful results across research, analytics,
+          and community-focused projects.
         </h2>
         <div className={styles.buttonGroup}>
-          <a className={styles.contactBtn} href="mailto:emmanuelokinyi799@gmail.com">Contact me</a>
+          <a className={styles.contactBtn} href="mailto:danielotieno189@gmail.com">Contact me</a>
           <a 
             className={`${styles.contactBtn} ${styles.downloadBtn}`} 
             href="/assets/cv-bmtw_fix.pdf" 
-            download="Emmanuel_Okinyi_CV.pdf">
+            download="Otieno_Churchill_CV.pdf">
             Download CV
           </a>
         </div>
